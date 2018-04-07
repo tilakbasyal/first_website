@@ -1,0 +1,35 @@
+body{
+	width: 100%;
+}
+
+body,h1,h2,h3,h4,h5,h6,span,p,li,ul{
+	margin:0px;
+	padding:0px;
+}
+
+.header{
+	background-color: silver;
+}
+
+
+.logo_name{
+	display: flex;	
+	align-items: center;
+	width: inherit;
+	position: relative;
+}
+
+
+.logo{
+	padding: 20px;
+}
+
+.name h1{
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.logo img{
+	width: 100px;
+}
