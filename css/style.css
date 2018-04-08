@@ -1,0 +1,224 @@
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+  }
+
+body{
+	width: 100%;
+	font-family: 'Roboto', sans-serif;
+}
+
+body,h1,h2,h3,h4,h5,h6,span,p,li,ul{
+	margin:0px;
+	padding:0px;
+}
+.logo_name .name h1{
+	font-weight: 400;
+}
+
+.nav-bar ul li a{
+	text-decoration: none;
+	font-weight: bold;
+	color: #009999;
+}
+
+.header{
+	background-color: #e6e6e6;
+}
+
+
+.logo_name{
+	display: flex;	
+	align-items: center;
+	width: inherit;
+	position: relative;
+}
+
+
+.logo{
+	padding: 10px;
+}
+
+.name h1{
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.logo img{
+	width: 100px;
+}
+
+ul{
+	background-color: #b3b3b3;
+	text-align: right;
+	padding: 10px;
+	margin:0px;
+}
+
+li{
+	padding: 10px;
+	display: inline;
+}
+
+#home{
+	background-color: #8a8a5c;
+}
+
+#profile{
+	background-color: #734d26
+}
+
+#services{
+	background-color: #8a8a5c;
+}
+
+#team{
+	background-color: #734d26;
+}
+#contact{
+	background-color: #8a8a5c;
+}
+#footer{
+	background-color: #404040;
+}
+
+section{
+	width: 100%;
+	padding: 20px;
+
+}
+
+/*home part css */
+
+#home .image_caption{
+	text-align: center;
+}
+
+#home .image_caption .image img{
+	margin: auto;
+	width: 650px;
+}
+
+/* profile part css */
+#profile .caption{
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.second_section{
+	display: flex;
+}
+
+.ceo_content p{
+	padding: 40px 20px;
+}
+
+/* services part css */
+
+.work_description{
+	padding: 20px auto;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 600;
+}
+.deal_with{
+	display: flex;
+}
+
+.works{
+	/*filter: grayscale(100%);*/
+	padding: 40px 30px 10px 30px;
+}
+
+
+/*team part css */
+#team .team_caption p{
+	padding-bottom: 20px;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 600;
+}
+#team .team_member{
+	justify-content: center;
+	display: flex;
+	flex-wrap: wrap;
+	/*max-width: 500px;*/
+	box-shadow: 0 4px 8px 0;
+	text-align: center;
+}
+
+#team .team_member .card{
+	padding: 10px;
+	margin: 10px;
+}
+
+#team .team_member .card a{
+	padding: 10px;
+	text-decoration: none;
+	color: #002266;
+}
+
+/* contact part CSS */
+#contact .contact_caption{
+	text-align: center;x
+}
+
+#contact .contact_how .flex1{
+	padding: 10px 20px 20px 10px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#contact .contact_how .flex2{
+	padding: 10px 20px 20px 10px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#contact .contact_how .flex1 .part1, .part2{
+	width: 30%;
+}
+
+#contact .contact_how .flex2 .part3, .part4{
+	width: 30%;
+}
+
+#contact .contact_how p{
+	font-size: 21px;
+	padding-bottom: 10px;
+}
+
+#contact .contact_how span{
+	font-size: 17px;
+	/*padding-bottom: 10px;*/
+}
+
+#contact .contact_how .part1, .part2, .part3, .part4{
+	padding: 10px;
+}
+
+/*CSS for Footer */
+#footer .footer_flex{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#footer .footer_flex .phone_number, .address, .social_site_link{
+	width: 30%;
+}
+#footer .footer_flex .social_site_link a{
+	color: red;
+	/*float: right;*/
+	padding: 10px;
+}
+#footer .footer_flex .social_site_link{
+	width: 40%;
+	text-align: right;
+}

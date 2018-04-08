@@ -2,13 +2,14 @@
 <html>
 <head>
 	<title>A Demo Website</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
 	<div class="header">
 		<div class="logo_name">
 			<div class="logo">
-				<img src="ku.png">				
+				<img src="icons/ku.png">				
 			</div>
 			<div class="name">
 				<h1>A Demo Website</h1>
@@ -16,12 +17,155 @@
 		</div>
 		<div class="nav-bar">
 			<ul>
-				<li>Home</li>
-				<li>Profile</li>
-				<li>Services</li>
-				<li>Contact Us</li>
+				<li><a href="#home"> Home</a></li>
+				<li><a href="#profile">Profile</a></li>
+				<li><a href="#services">Services</a></li>
+				<li><a href="#team">Our Team</a></li>
+				<li><a href="#contact">Contact Us</a></li>
 			</ul>
 		</div>		
 	</div>
+
+	<div class="container">
+		<section id="home">
+			<div class="image_caption">
+				<div class="image">
+					<img src="images/river.jpg">
+				</div>
+				<div class="caption">
+					<p>A calm river</p>				
+				</div>
+			</div>			
+		</section>
+
+		<section id="profile">
+			<div class="caption">
+				<span><strong>Company Profile</strong></span>			
+			</div>
+			<div class="second_section">				
+				<div class="ceo_pic">
+					<img src="images/random.jpg">
+					<span>Who cares</span><br>
+					<spam>Known By Noone</span>
+				</div>			
+				<div class="ceo_content">
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+					</p>
+				</div>				
+			</div>			
+		</section>
+
+		<section id="services">
+			<div class="work_description">
+				<span>We Provide services with:</span>				
+			</div>
+			<div class="deal_with">
+				<div class="works"><img src="images/develop.png"> </div>
+				<div class="works"><img src="images/design.png"> </div>
+				<div class="works"><img src="images/database.png"> </div>
+				<div class="works"><img src="images/security.png"> </div>
+				<div class="works"><img src="images/hosting.png"> </div>
+			</div>	
+		</section>
+
+		<section id="team">
+			<div class="team_caption">
+				<p>Our Special Team</p>								
+			</div>
+			<div class="team_member">
+				<div class="card">
+					<img src="images/team1.jpg">
+					<h3>Miss Beautiful</h3>
+					<p class="title">Owner of a beautiful smile</p>
+					<p>World</p>
+					<a href="#facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+					<a href="#twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+					<a href="#linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+				</div>
+				<div class="card">
+					<img src="images/team1.jpg">
+					<h3>Miss Beautiful</h3>
+					<p class="title">Owner of a beautiful smile</p>
+					<p>World</p>
+					<a href="#facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+					<a href="#twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+					<a href="#linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+				</div>
+				<div class="card">
+					<img src="images/team1.jpg">
+					<h3>Miss Beautiful</h3>
+					<p class="title">Owner of a beautiful smile</p>
+					<p>World</p>
+					<a href="#facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+					<a href="#twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+					<a href="#linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+				</div>
+				<div class="card">
+					<img src="images/team1.jpg">
+					<h3>Miss Beautiful</h3>
+					<p class="title">Owner of a beautiful smile</p>
+					<p>World</p>
+					<a href="#facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+					<a href="#twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+					<a href="#linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+				</div>
+			</div>				
+		</section>
+
+		<section id="contact">
+			<div class="contact_caption">
+				<h3>Contact Us	</h3>
+			</div>
+			<div class="contact_how">
+				<div class="flex1">
+					<div class="part1">
+						<p>Corporate Headquarter</p>
+						<span>Achieve3000<br> 1985 Cedar Bridge Ave., Suite 3<br> Lakewood, NJ 08701</span>	
+					</div>
+					<div class="part2">
+						<p>Sales Info and Inquiries</p>
+						<span>Toll-Free: 800-838-8771<br>Email: info@achieve3000.com</span>
+					</div>
+				</div>
+				<div class="flex2">
+					<div class="part3">
+						<p>General Contact</p>
+						<span>Toll-Free: 888-968-6822<br>Phone: 732-367-5505<br>Fax: 732-367-2313<br>Email:office@achieve3000.com</span>
+					</div>
+					<div class="part4">
+						<p>International Sales</p>
+						<span>Email: international@achieve3000.com<br>Phone: 732-987-3669<br>Schedule: Monday - Friday 1:15 AM to 10:30 PM</span>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="footer">
+			<div class="footer_flex">
+				<div class="phone_number">
+					<p style="font-size: 21px"> Contact Us:</p>
+					<span>Tel: 9847590231</span><br>
+					<sapn>Toll-free: 1660012222</span><br>
+					<span>Email: noone@givesshit.com</span>
+				</div>
+				<div class="address">
+					<p style="font-size: 21px">Office Locations:</p>
+					<span>Kritipur, Kathmandu</span><br>
+					<span>44460 </span>
+					
+				</div>
+				<div class="social_site_link">
+					<a href="#facebook_company"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+					<a href="#twitter_company"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+					<a href="#linkedin_company"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+					<a href="#youtube_company"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+				</div>
+			</div>
+		</section>		
+	</div>
 </body>
 </html>
+
+
+
+
