@@ -85,8 +85,14 @@ li{
 #contact{
 	background-color: #8a8a5c;
 }
+#work_with_us{
+	background-color: #734d26;
+}
 #footer{
 	background-color: #404040;
+}
+#footer_sitemap{
+	background-color: #9d9ea0;
 }
 
 section{
@@ -112,34 +118,47 @@ section{
 	text-align: center;
 }
 
-.second_section{
+#profile .second_section{
 	display: flex;
 }
+#profile .second_section .ceo_pic span{
+	text-align: center;
+}
+/*#profile .second_section .ceo_pic{
+	justify-content: center;
+	padding-bottom: 40px 30px;
+}*/
 
-.ceo_content p{
-	padding: 40px 20px;
+#profile .ceo_content p{
+	padding: 40px 30px;
 }
 
 /* services part css */
 
-.work_description{
+#services .work_description{
 	padding: 20px auto;
 	text-align: center;
 	text-transform: uppercase;
 	font-weight: 600;
 }
-.deal_with{
+#services .deal_with{
 	display: flex;
 }
 
-.works{
-	/*filter: grayscale(100%);*/
+#services .deal_with .works img{
+	filter: grayscale(100%);
+	opacity: 0.8;
 	padding: 40px 30px 10px 30px;
+}
+#services .deal_with .works img:hover{
+	filter: grayscale(0%);
+	opacity: 1;
+
 }
 
 
 /*team part css */
-#team .team_caption p{
+#team .team_caption h3{
 	padding-bottom: 20px;
 	text-align: center;
 	text-transform: uppercase;
@@ -164,10 +183,13 @@ section{
 	text-decoration: none;
 	color: #002266;
 }
-
+/*#team .team_member .card p{
+	padding: 5px;
+}
+*/
 /* contact part CSS */
 #contact .contact_caption{
-	text-align: center;x
+	text-align: center;
 }
 
 #contact .contact_how .flex1{
@@ -203,6 +225,59 @@ section{
 #contact .contact_how .part1, .part2, .part3, .part4{
 	padding: 10px;
 }
+/*CSS for work with us*/
+#work_with_us .work_with_us_title h3{
+	padding-bottom: 25px;
+	text-align: center;
+	font-size: 21px;
+}
+#work_with_us .work_with_us_title p{
+	padding-bottom: 15px;
+	font-size: 17px;
+	padding-bottom: 5px;
+	text-align: center;
+}
+#work_with_us .form{
+	text-align: center;
+	padding: 10px;
+}
+#work_with_us .form .fullname input {
+	/*background-color: transparent;*/
+	border-style: solid;
+	opacity: 0.5;
+	margin-bottom: 25px;
+	width: 555px;
+	height: 67px;
+	padding: 10px 20px;
+}
+#work_with_us .form .email input {
+	border-style: solid;
+	margin-bottom: 25px;
+	opacity: 0.5;
+	width: 555px;
+	height: 67px;
+	padding: 10px 20px;
+}
+#work_with_us .form .message input {
+	border-style: solid;
+	opacity: 0.5;
+	margin-bottom: 25px;
+	width: 555px;
+	height: 67px;
+	padding: 10px 20px;
+}
+#work_with_us .form .submit{
+	justify-content: center;
+}
+#work_with_us .form .submit input {
+	background-color: transparent;
+	opacity: 0.6;
+	margin-bottom: 25px;
+	width: 300px;
+	height: 40px;
+	padding: 10px;
+}
+
 
 /*CSS for Footer */
 #footer .footer_flex{
@@ -210,15 +285,19 @@ section{
 	flex-wrap: wrap;
 }
 
-#footer .footer_flex .phone_number, .address, .social_site_link{
+#footer .footer_flex .phone_number, .address{
 	width: 30%;
 }
 #footer .footer_flex .social_site_link a{
 	color: red;
-	/*float: right;*/
 	padding: 10px;
 }
 #footer .footer_flex .social_site_link{
 	width: 40%;
 	text-align: right;
 }
+/* css for  footer sitemap */
+#footer_sitemap .sitemap p{
+	text-align: center;
+	padding: 5px ;
+} 
